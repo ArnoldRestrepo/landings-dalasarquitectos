@@ -1,0 +1,15 @@
+html, body{
+    background: url(http://dalasarquitectos.com/wp-content/uploads/2018/07/16520332983_90bf6ecfab_o.jpg) #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    box-shadow: inset 0 0 .5rem rgba(0,0,0,.5);
+}
+
+.Wrapper{
+    background: rgba(0,0,0,.8);
+    color: #FFF;
+}
+.Wrapper__container{
+    max-width: 42em;
+}

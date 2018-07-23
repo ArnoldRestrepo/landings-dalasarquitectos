@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Agregar Etiquetas Meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,7 +10,60 @@
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-    
+    <div class="Wrapper ">
+        <div class="Wrapper__container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <header class="Header">
+                <h1>Dalas Arquitectos</h1>
+                <nav class="nav">
+                    <a href="#" class="nav-link text-white">Llámanos</a>
+                    <a href="#" class="nav-link text-white">Contáctanos</a>
+                    <a href="#" class="nav-link text-white">Acerca</a>
+                </nav>
+            </header>
+            <main class="Main my-5">
+                <article>
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae culpa, quisquam soluta eos ea non molestiae at voluptas? Nobis, dolorum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae culpa, quisquam soluta eos ea non molestiae at voluptas? Nobis, dolorum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae culpa, quisquam soluta eos ea non molestiae at voluptas? Nobis, dolorum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae culpa, quisquam soluta eos ea non molestiae at voluptas? Nobis, dolorum.</p>
+                </article>
+                <button type="button" class="btn btn-lg btn-success" data-toggle="modal" data-target="#Form">Descargar</button>
+                <!-- Modal Form -->
+                <article class="modal fade" id="Form" tabindex="-1" role="dialog" aria-labelledby="Form">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title text-dark">Contáctanos</h4>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- Form -->
+                                <form action="" method="get" validate>
+                                    <div class="form-group">
+                                        <label class="text-dark" for="nombre">Nombre:</label>
+                                        <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="nombre" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="text-dark" for="email">Email:</label>
+                                        <input type="email" class="form-control" id="email" name="email" aria-describedby="email" required>
+                                    </div>
+                                    <button type="submit" class="btn btn-success">Enviar</button>
+                                </form>
+                                <!-- /Form -->
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- Modal Form -->
+            </main>
+            <footer class="Footer my-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis placeat adipisci dolor temporibus laborum obcaecati, doloremque consequatur doloribus eum facilis rem quaerat maxime voluptates suscipit non delectus reprehenderit velit enim.</p>
+            </footer>
+        </div>
+    </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
